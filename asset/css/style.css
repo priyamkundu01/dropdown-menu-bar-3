@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* 
+Start Project
+Company Name: Eclick Softwares
+Date: 04/07/2024
+Time: 10:04AM
+Project name: Safi Vita SL
+Developer Name: Priyam Kundu
+Take reference from: Sudip Karmakar
+CSS Document 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+picture {
+  display: block;
+}
+abbr,
+address,
+article,
+aside,
+audio,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: 400 14px "Open Sans", sans-serif;
+  line-height: 20px;
+  color: #000;
+  background-color: #fff;
+}
+.chexbox,
+div,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input,
+label,
+li,
+ol,
+option,
+p,
+radiobutton,
+select,
+td,
+textarea,
+tr,
+ul {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  /* overflow-x: hidden; */
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #666666 #fff;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #444444;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+.chexbox {
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.clr,
+.spacer {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+  clear: both;
+}
+.clearfix:after,
+.clearfix::before {
+  content: "";
+  margin: 0;
+  padding: 0;
+  display: block;
+  clear: both;
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
+      format("embedded-opentype"),
+    url("../fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+    url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+    url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+    url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gotham_blackregular";
+  src: url("../fonts/gotham_black_regular-webfont.eot");
+  src: url("../fonts/gotham_black_regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/gotham_black_regular-webfont.woff2") format("woff2"),
+    url("../fonts/gotham_black_regular-webfont.woff") format("woff"),
+    url("../fonts/gotham_black_regular-webfont.ttf") format("truetype"),
+    url("../fonts/gotham_black_regular-webfont.svg#gotham_blackregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* my css */
+.header-wrap {
+  width: 100%;
+  padding: 50px 30px;
+  background-color: #023047;
+  font: 600 20px "Open Sans";
+}
+.header-wrap ul li a {
+  color: #fff;
+}
+.menu-area ul li {
+  position: relative;
+}
+.dropdown_area {
+  display: none;
+}
+.menu-area ul li:hover .dropdown_area {
+  display: block;
+  position: absolute;
+  top: 25px;
+  width: 200px;
+  height: 200px;
+  background-color: #219ebc;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+.dropdown_area2 {
+  display: none;
+}
+.dropdown_area ul li:hover .dropdown_area2 {
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  width: 300px;
+  height: 200px;
+  background-color: #9e90a2;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+.dropdown_area li {
+  margin: 10px;
+}
+.dropdown_area .fa-solid {
+  padding-left: 85px;
+}
